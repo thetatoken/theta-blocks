@@ -7,7 +7,7 @@
     "deploy": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ blocklytics/ethereum-blocks",
     "create-local": "graph create --node http://127.0.0.1:8020 thetatoken/theta-blocks",
     "remove-local": "graph remove --node http://127.0.0.1:8020/ blocklytics/theta-blocks",
-    "deploy-local": "graph deploy --node http://127.0.0.1:8020/ --ipfs http://localhost:5001 thetatoken/theta-blocks"
+    "deploy-local": "graph deploy --node http://127.0.0.1:8020/ --ipfs http://localhost:5001 thetatoken/theta-blocks --debug"
   },
   "dependencies": {
     "@graphprotocol/graph-cli": "^0.17.1",
